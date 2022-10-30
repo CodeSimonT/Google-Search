@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Google Advance Search</title>
+    </head>
+    <body>
+        <section id="advance">
+            <div class="container">
+                <div class="button-container">
+                    <button class="button"><a href="index.html">Google Search</a></button>
+                </div>
+                <div class="title">
+                    <p class="marg-left">Advanced Search</p>
+                </div>
+                <div class="heading marg-left">
+                    <p>Find page with...</p>
+                </div>
+                <form class="advance-form marg-left" action="https://google.com/search" name="f">
+                    <div class="item-container">
+                        <div class="left-item item">
+                            <span><label class="int" for="input1">all these words:</label></span>
+                            <span><label class="int" for="input2">this exact word or phrase: </label></span>
+                            <span><label class="int" for="input3">any of this words: </label></span>
+                            <span><label class="int" for="input4">none of these words: </label></span>
+                        </div>
+                        <div class="right-item item">
+                            <span><input type="text" class="textinput" id="input1" value=""  name="as_q"></span>
+                            <span><input type="text" class="textinput" id="input2" value=""  name="as_epq"></span>
+                            <span><input type="text" class="textinput" id="input3" value=""  name="as_oq"></span>
+                            <span><input type="text" class="textinput" id="input4" value=""  name="as_eq"></span>
+                        </div>
+                    </div>
+                    <input class="submit" type="submit" value="Advanced Search">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
